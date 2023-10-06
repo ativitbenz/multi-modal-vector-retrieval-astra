@@ -1,3 +1,4 @@
+# Standalone sample with direct cassio
 import os
 import cassio
 import torch
@@ -17,6 +18,8 @@ model, transform = clip.load("ViT-B/32", device=device)
 
 df = pd.read_csv('flickr/captions.txt')
 
+# Based on this paper 
+# https://ai.meta.com/research/publications/scaling-autoregressive-multi-modal-models-pretraining-and-instruction-tuning/
 def get_clip_embedding(text, image_path):    
     image = transform(Image.open(image_path)).unsqueeze(0).to(device)        
     text = clip.tokenize(text,truncate=True).to(device)
