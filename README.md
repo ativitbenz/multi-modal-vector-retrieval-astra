@@ -14,6 +14,10 @@ Extract here, folder structure would look like
 ./flickr/Images
 ```
 
+```
+pip install -r requirements.txt
+```
+
 Init Astra
 ```
 export ASTRA_DB_APPLICATION_TOKEN=
@@ -23,6 +27,12 @@ export ASTRA_DB_KEYSPACE=
 
 ```
 python3 multimodal_demo.py
+```
+
+With langchain 
+```
+python3 multi_modal_langchain.py
+
 ```
 
 ### How it works
