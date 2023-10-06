@@ -1,6 +1,6 @@
 ## Multi-Modal Vector Retrieval with Astra
 
-Demonstrates how to perform multi modal vector retrieval with Astra and langchain
+Demonstrates how to perform multi modal vector retrieval with Astra and langchain with flickr-8k dataset
 
 ### Get started
 
