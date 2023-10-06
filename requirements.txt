@@ -1,0 +1,6 @@
+pandas
+cassio
+torch
+clip
+pillow
+langchain
